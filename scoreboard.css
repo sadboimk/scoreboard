@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin:33px auto;
+    background-color: pink;
+    color: black;
+    display: flex;
+    width: 550px;
+    height: 350px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+.guest , .home{
+    margin: 0px 25px;
+}
+#home--btn, #guest--btn{
+    width: 155px;
+    height: 120px;
+    margin: 15px;
+    background-color: black;
+    color: rgb(255, 53, 90);
+    font-size: 90px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 7px;
+}
+.operate{
+    width: 178px;
+    height: 55px;
+    margin-right: 0px;
+    padding-left: 7px;
+    /* border: 1px solid white; */
+}
+.operate > button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: 18px;
+    color: black;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+
+    
+}
+.operate > button:active{
+    background-color: rgba(255, 255, 255, 0.275);
+}
+
+
+.container-two{
+    margin:33px auto;
+    background-color: pink;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 140px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    border: 3px solid red;
+    padding: 20px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.save--btn{
+    margin-top: 10px;
+    width: 150px;
+    padding: 10px 7px;
+    border-radius: 3px;
+    position: sticky;
+    top: 0;
+   
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: red;
+    border: none;
+}
+.save--btn:active{
+    background-color: red;
+}
+.container-two >p{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+#home--count{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#guest--count{
+    margin-bottom: 20px;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+}
+.time>h1 {
+    padding: 0.2em;
+    font-size: 75px;
+    color: pink;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: red;
+    margin-top: 0;
+}
+
+.manyButtons {
+    text-align: center;
+    margin: 1em, 0, 1em, 0 ;
+}
+.manyButtons>button {
+    background-color: pink;
+    border-color: red;
+    border-radius: 5px;
+    margin: 2px;
+    color: red;
+    font-size: 20px;
+}
